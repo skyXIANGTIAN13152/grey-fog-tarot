@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 240" preserveAspectRatio="none">
+  <defs>
+    <radialGradient id="velvet"><stop stop-color="#6b3442"/><stop offset=".7" stop-color="#41242f"/><stop offset="1" stop-color="#261e26"/></radialGradient>
+    <linearGradient id="foil" x2=".85" y2="1"><stop stop-color="#a97e4b"/><stop offset=".28" stop-color="#ecd0a0"/><stop offset=".48" stop-color="#b48d65"/><stop offset=".78" stop-color="#d9ba85"/><stop offset="1" stop-color="#906c4c"/></linearGradient>
+    <pattern id="silk" width="8" height="8" patternUnits="userSpaceOnUse"><path d="m0 0 8 8m-8 0 8-8" fill="none" stroke="#e3c298" opacity=".11" stroke-width=".44"/></pattern>
+    <g id="scroll" fill="none" stroke="url(#foil)" stroke-width=".85">
+      <path d="M9 51V9h39c-4 3-11 6-15 6-11 0-10 8-17 12 1 7 1 15-7 24Z"/>
+      <path d="M12 39c7-18 14-23 25-27M11 15q8 10 14-1-11 7-12-3M15 39q1-11 8-14-3 10-8 14Zm10-16q4-9 15-7-8 1-15 7Z"/>
+      <circle cx="12" cy="12" r="2" fill="#d3b181"/>
+    </g>
+    <g id="crown" fill="none" stroke="url(#foil)" stroke-width=".8">
+      <path d="M22 23Q45 19 54 11t18-6q8 0 18 6t32 12M24 27q21-3 31-11t17-6q8 0 17 7t31 10"/>
+      <path d="M35 39q20-6 23-16c3 9 8 14 14 15 6-1 11-6 14-15q5 12 23 16M47 42q8-4 12-10l13 13 13-13q6 8 12 10M72 13l5 9-5 10-5-10Z"/>
+      <path d="m72 46 2 6 6 2-6 2-2 6-2-6-6-2 6-2Z" fill="#d0b183"/>
+    </g>
+    <g id="petal" fill="none" stroke="url(#foil)" stroke-width=".58"><path d="M72 120q-15-26 0-46 13 20 0 46Zm0-5q-6-20 0-33 6 14 0 33Z"/></g>
+    <g id="quarter"><use href="#petal"/><use href="#petal" transform="rotate(15 72 120)"/><use href="#petal" transform="rotate(30 72 120)"/><use href="#petal" transform="rotate(45 72 120)"/><use href="#petal" transform="rotate(60 72 120)"/><use href="#petal" transform="rotate(75 72 120)"/></g>
+  </defs>
+  <rect width="144" height="240" rx="5" fill="url(#velvet)"/><rect width="144" height="240" rx="5" fill="url(#silk)"/>
+  <g fill="none" stroke="url(#foil)"><rect x="3" y="3" width="138" height="234" rx="4" stroke-width="1.6"/><rect x="6" y="6" width="132" height="228" rx="2" stroke-width=".6"/>
+    <path d="M12 53q0-7 8-11c15-7 28-12 37-25m30 0c9 13 22 18 37 25q8 4 8 11v134q0 7-8 11c-15 7-28 12-37 25m-30 0c-9-13-22-18-37-25q-8-4-8-11Z" stroke-width=".75"/>
+    <path d="m72 43 49 77-49 77-49-77Zm0 18 40 59-40 59-40-59Z" stroke-width=".7"/>
+    <circle cx="72" cy="120" r="49" stroke-width="1"/><circle cx="72" cy="120" r="47" stroke-dasharray="1 2.2"/>
+  </g>
+  <use href="#scroll"/><use href="#scroll" transform="translate(144 0) scale(-1 1)"/><use href="#scroll" transform="rotate(180 72 120)"/><use href="#scroll" transform="translate(0 240) scale(1 -1)"/>
+  <use href="#crown"/><use href="#crown" transform="rotate(180 72 120)"/>
+  <use href="#quarter"/><use href="#quarter" transform="rotate(90 72 120)"/><use href="#quarter" transform="rotate(180 72 120)"/><use href="#quarter" transform="rotate(270 72 120)"/>
+  <g stroke="url(#foil)" fill="#492833"><circle cx="72" cy="120" r="22"/><circle cx="72" cy="120" r="19" stroke-width=".55"/>
+    <path d="m72 85 6 27 19 8-19 7-6 28-6-28-19-7 19-8Z" fill="#35242c"/><path d="m72 101 5 19-5 19-5-19Z" fill="#c77f76"/></g>
+</svg>

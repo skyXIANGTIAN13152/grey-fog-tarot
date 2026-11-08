@@ -1,0 +1,7 @@
+/* Shared native UI behavior. Layout breakpoints live alongside their components' rules in styles.css. */
+::selection{background:#b49a6a;color:#14181d}
+::-webkit-scrollbar{width:9px;height:9px}
+::-webkit-scrollbar-track{background:#14181d}
+::-webkit-scrollbar-thumb{background:#465057;border:2px solid #14181d;border-radius:10px}
+input::-ms-reveal{display:none}
+summary::-webkit-details-marker{display:none}

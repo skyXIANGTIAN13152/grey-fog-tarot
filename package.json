@@ -1,0 +1,30 @@
+{
+  "name": "grey-fog-tarot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "灰雾之上：本地塔罗牌、双语牌典与自带接口的 AI 解读",
+  "engines": {"node": ">=22.12.0"},
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "tsc --noEmit && vite build",
+    "start": "node server/index.mjs",
+    "test": "node --import tsx --test tests/*.test.ts tests/server*.mjs",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest",
+    "react-markdown": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/node": "latest",
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "tsx": "latest"
+  }
+}

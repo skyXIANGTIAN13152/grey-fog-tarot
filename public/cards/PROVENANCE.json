@@ -1,0 +1,634 @@
+{
+  "artwork": "Rider-Waite-Smith, Pamela Colman Smith (1909)",
+  "license": "Public Domain Mark 1.0",
+  "licenseURL": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "archiveMetadata": "https://archive.org/metadata/rider-waite-small-jpeg",
+  "mirrorCommit": "e3a47f0376a87e19b779c99ad3842dde9d043266",
+  "verifiedDate": "2026-11-06",
+  "images": [
+    {
+      "id": "ar01",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/01-magician.jpg",
+      "image": "/cards/ar01.jpg",
+      "bytes": 245396,
+      "sha256": "d37604d2400f15d87bc4da57efb68dfcb80853b458ea1ec1b5c75912b291d5e6",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_magician.jpeg"
+    },
+    {
+      "id": "ar02",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/02-high-priestess.jpg",
+      "image": "/cards/ar02.jpg",
+      "bytes": 254773,
+      "sha256": "222a357d0e26717a27152c58f8fcef89fb9e1af62901622292907881d1663b5e",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_priestess.jpeg"
+    },
+    {
+      "id": "ar03",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/03-empress.jpg",
+      "image": "/cards/ar03.jpg",
+      "bytes": 284773,
+      "sha256": "1cffdd4fe13b604f392d5e19c62a151174ae20c836b703c00a76902ac1afe8f2",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_empress.jpeg"
+    },
+    {
+      "id": "ar04",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/04-emperor.jpg",
+      "image": "/cards/ar04.jpg",
+      "bytes": 277935,
+      "sha256": "2360eb3c73ea98243961fc5b1764536dd44f5aafc76df9a7e688702ed142bd73",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_emperor.jpeg"
+    },
+    {
+      "id": "ar05",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/05-hierophant.jpg",
+      "image": "/cards/ar05.jpg",
+      "bytes": 273218,
+      "sha256": "6f878dd37b92a05e019c0a143f7d434c64738980b23ae7763f490e90e5874ca9",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_hierophant.jpeg"
+    },
+    {
+      "id": "ar06",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/06-lovers.jpg",
+      "image": "/cards/ar06.jpg",
+      "bytes": 291023,
+      "sha256": "f0b9839177074e2aa22b143b8c3201f84ef166a7060f5ae6e50bcc676a82afa2",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_lovers.jpeg"
+    },
+    {
+      "id": "ar07",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/07-chariot.jpg",
+      "image": "/cards/ar07.jpg",
+      "bytes": 259299,
+      "sha256": "fda0b1fb46ed8da78d2f2c83d55f3f1154590c477992790399670d58891718e2",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_chariot.jpeg"
+    },
+    {
+      "id": "ar08",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/08-strength.jpg",
+      "image": "/cards/ar08.jpg",
+      "bytes": 234251,
+      "sha256": "1a2c8a98aac71104304f59a71e66236017f0f6d07ba0e0abf592b3afcbfd6158",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_strength.jpeg"
+    },
+    {
+      "id": "ar09",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/09-hermit.jpg",
+      "image": "/cards/ar09.jpg",
+      "bytes": 195821,
+      "sha256": "0b55ffd9925a3576c8b5eaff9495178b30e156b0704cf83958d43fbb6927f435",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_hermit.jpeg"
+    },
+    {
+      "id": "ar10",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/10-wheel-of-fortune.jpg",
+      "image": "/cards/ar10.jpg",
+      "bytes": 270969,
+      "sha256": "ce301deb3438256169984e559ae81ee134e5e8e3c39b8925ee8f506fd4ac1f8d",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_fortune.jpeg"
+    },
+    {
+      "id": "ar11",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/11-justice.jpg",
+      "image": "/cards/ar11.jpg",
+      "bytes": 273890,
+      "sha256": "e65c8415e82003bb012be321e51cc438b665654f2f1e64ebcb9b514e86b061a5",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_justice.jpeg"
+    },
+    {
+      "id": "ar12",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/12-hanged-man.jpg",
+      "image": "/cards/ar12.jpg",
+      "bytes": 245508,
+      "sha256": "98663672fa0b38858cef2fcbd0c4d8592fc6e2d0dadb2b46d755914cb08d8008",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_hanged.jpeg"
+    },
+    {
+      "id": "ar13",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/13-death.jpg",
+      "image": "/cards/ar13.jpg",
+      "bytes": 266346,
+      "sha256": "4dc471f96c63e3c0e4a775a8fb7ba3340ab4467239891b02bd6cc1f63022b0d8",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_death.jpeg"
+    },
+    {
+      "id": "ar14",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/14-temperance.jpg",
+      "image": "/cards/ar14.jpg",
+      "bytes": 284386,
+      "sha256": "60e47fd5c635c0372b3814eb64978c3e81a6ea16b70509beed6f9dae3a6ef163",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_temperance.jpeg"
+    },
+    {
+      "id": "ar15",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/15-devil.jpg",
+      "image": "/cards/ar15.jpg",
+      "bytes": 243162,
+      "sha256": "24968dc089ae5b296ace56c92043f062fbab567ca2b714b337e7c3f9a7ae50ca",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_devil.jpeg"
+    },
+    {
+      "id": "ar16",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/16-tower.jpg",
+      "image": "/cards/ar16.jpg",
+      "bytes": 227324,
+      "sha256": "7e8b2f45d90153a0f8b1fb25e6f58d30c582ef216260e5e0db623f2a1462d284",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_tower.jpeg"
+    },
+    {
+      "id": "ar17",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/17-star.jpg",
+      "image": "/cards/ar17.jpg",
+      "bytes": 247042,
+      "sha256": "caa7de48262415adaf5e7dcf367a332d9d552aff2703e6103881b25413cd6f59",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_star.jpeg"
+    },
+    {
+      "id": "ar18",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/18-moon.jpg",
+      "image": "/cards/ar18.jpg",
+      "bytes": 250421,
+      "sha256": "e6a8284e43f8f48303e20e966f807122ba08bdfa7a04f1e96cf7d585857445b6",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_moon.jpeg"
+    },
+    {
+      "id": "ar19",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/19-sun.jpg",
+      "image": "/cards/ar19.jpg",
+      "bytes": 282837,
+      "sha256": "2db2fd268019961a32e3c640b0274e967342d8b56a005ddbf20f96cc4e7b14c1",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_sun.jpeg"
+    },
+    {
+      "id": "ar20",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/20-judgement.jpg",
+      "image": "/cards/ar20.jpg",
+      "bytes": 270216,
+      "sha256": "758b312b32e532176b5e2e38a423dbaf3bcd3e316fc10e5484b59f124be2575e",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_judgement.jpeg"
+    },
+    {
+      "id": "ar00",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/00-fool.jpg",
+      "image": "/cards/ar00.jpg",
+      "bytes": 236145,
+      "sha256": "f65ee8eae9ae6f462e12267c78a3a3b6820fa4ad0f8d3851c6df2867b8cb82bd",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_fool.jpeg"
+    },
+    {
+      "id": "ar21",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/major/21-world.jpg",
+      "image": "/cards/ar21.jpg",
+      "bytes": 272446,
+      "sha256": "1b48c56a5f9d2d1f343913f113b2fd0962f5e456029ae92f8cbab0a03107bd2c",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/major_arcana_world.jpeg"
+    },
+    {
+      "id": "wapa",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/wands/11.jpg",
+      "image": "/cards/wapa.jpg",
+      "bytes": 265360,
+      "sha256": "21fb1ffbb73fa8ce83b2af90f0c932986d778bf2891b149491b9b52cea6abc0c",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_wands_page.jpeg"
+    },
+    {
+      "id": "wakn",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/wands/12.jpg",
+      "image": "/cards/wakn.jpg",
+      "bytes": 279148,
+      "sha256": "98873dfd6d09c7ee7c74fc482552ffce6d653bc913cbd7dc9a5347aea8c54d98",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_wands_knight.jpeg"
+    },
+    {
+      "id": "waqu",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/wands/13.jpg",
+      "image": "/cards/waqu.jpg",
+      "bytes": 285784,
+      "sha256": "efb59092e3603f147b0c9e35c8177c4bebbd64b2f1beb1f0d83ccb6d6ce22ba3",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_wands_queen.jpeg"
+    },
+    {
+      "id": "waki",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/wands/14.jpg",
+      "image": "/cards/waki.jpg",
+      "bytes": 292710,
+      "sha256": "3a3de60ca7edab0538b60ba2b43593eb9cbfe1ce2c86c6b8f410a78bb0b6e86b",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_wands_king.jpeg"
+    },
+    {
+      "id": "waac",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/wands/01.jpg",
+      "image": "/cards/waac.jpg",
+      "bytes": 229037,
+      "sha256": "f0c258373e0617ee053c21554bdb6992eee48acc6754cc8633efae40a285b0dd",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_wands_ace.jpeg"
+    },
+    {
+      "id": "wa02",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/wands/02.jpg",
+      "image": "/cards/wa02.jpg",
+      "bytes": 231765,
+      "sha256": "f61230ae636289abcacb2a2e9bdb11adffa9b7e3e64b9c4ac908ad490b1a8b78",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_wands_2.jpeg"
+    },
+    {
+      "id": "wa03",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/wands/03.jpg",
+      "image": "/cards/wa03.jpg",
+      "bytes": 265789,
+      "sha256": "7ba595e81d73b4c2458448415654d3111ef299a934652d9348d78719b1425162",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_wands_3.jpeg"
+    },
+    {
+      "id": "wa04",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/wands/04.jpg",
+      "image": "/cards/wa04.jpg",
+      "bytes": 237681,
+      "sha256": "4c5c2d306e72bb140c0e9b7f491f71fd9374ac2ea268651d568865d9d2f6a970",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_wands_4.jpeg"
+    },
+    {
+      "id": "wa05",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/wands/05.jpg",
+      "image": "/cards/wa05.jpg",
+      "bytes": 248340,
+      "sha256": "11a3fcc7883c69e039d41f1aa3bf8263f6669b7a7a318956a3b53420fe10231b",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_wands_5.jpeg"
+    },
+    {
+      "id": "wa06",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/wands/06.jpg",
+      "image": "/cards/wa06.jpg",
+      "bytes": 254572,
+      "sha256": "52b8533c852b35580c67a3ba123507eb9bf55e30894bb8df579bb2eacd63d3ba",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_wands_6.jpeg"
+    },
+    {
+      "id": "wa07",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/wands/07.jpg",
+      "image": "/cards/wa07.jpg",
+      "bytes": 220978,
+      "sha256": "c454d1d907347ab7140928019dc12c9529a9e2eb8924faa5122dc776d5381610",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_wands_7.jpeg"
+    },
+    {
+      "id": "wa08",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/wands/08.jpg",
+      "image": "/cards/wa08.jpg",
+      "bytes": 222076,
+      "sha256": "cc4d07b1716a4cd2af2b1c663f3a13ee37a01b1bc9e28aa3b9d9f4ad96ebb2e8",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_wands_8.jpeg"
+    },
+    {
+      "id": "wa09",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/wands/09.jpg",
+      "image": "/cards/wa09.jpg",
+      "bytes": 256870,
+      "sha256": "d59736a4ad392c5f55e51696304f0d85989100d276d92609580dc110fb92a2d3",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_wands_9.jpeg"
+    },
+    {
+      "id": "wa10",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/wands/10.jpg",
+      "image": "/cards/wa10.jpg",
+      "bytes": 238145,
+      "sha256": "825d1554bad1e6d672ef0cd10387e9e7dab2be765264681e703f8cfcf0f1877b",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_wands_10.jpeg"
+    },
+    {
+      "id": "cupa",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/cups/11.jpg",
+      "image": "/cards/cupa.jpg",
+      "bytes": 251100,
+      "sha256": "82a70e5dff0285c8af6cac08c5f0644cbab0432c69a5106bad278032cfc679e6",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_cups_page.jpeg"
+    },
+    {
+      "id": "cukn",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/cups/12.jpg",
+      "image": "/cards/cukn.jpg",
+      "bytes": 250314,
+      "sha256": "411ef5c3495cab82f4284a48d1aeb2b536e84be1281c89ed7b05bdc148debb04",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_cups_knight.jpeg"
+    },
+    {
+      "id": "cuqu",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/cups/13.jpg",
+      "image": "/cards/cuqu.jpg",
+      "bytes": 254394,
+      "sha256": "56b60f710899c8e264a2a9efce94e415b78242d4bf8f873cb97f6e90d7628fbe",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_cups_queen.jpeg"
+    },
+    {
+      "id": "cuki",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/cups/14.jpg",
+      "image": "/cards/cuki.jpg",
+      "bytes": 248272,
+      "sha256": "dcd43079b7d26f5f7765599865382a9da75b7ad695839827236215c68c3f9a93",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_cups_king.jpeg"
+    },
+    {
+      "id": "cuac",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/cups/01.jpg",
+      "image": "/cards/cuac.jpg",
+      "bytes": 246096,
+      "sha256": "7773c5e17057101ad4d6dbc064f50c9dfa8178ab045eac650bb7093d37bdf84d",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_cups_ace.jpeg"
+    },
+    {
+      "id": "cu02",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/cups/02.jpg",
+      "image": "/cards/cu02.jpg",
+      "bytes": 251429,
+      "sha256": "9fcad7fae944cb845f7101a83d0562d9d5cb45e4a4d00d30fdaef5812291592f",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_cups_2.jpeg"
+    },
+    {
+      "id": "cu03",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/cups/03.jpg",
+      "image": "/cards/cu03.jpg",
+      "bytes": 266983,
+      "sha256": "f2b3e38d17d923d283868e596a6048a736ec63ae74187f30e30364ebfed24b81",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_cups_3.jpeg"
+    },
+    {
+      "id": "cu04",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/cups/04.jpg",
+      "image": "/cards/cu04.jpg",
+      "bytes": 235085,
+      "sha256": "576095dede05dca6a06b66e32fea24fd8cbaf3891b54840b824f5eba6fae3157",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_cups_4.jpeg"
+    },
+    {
+      "id": "cu05",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/cups/05.jpg",
+      "image": "/cards/cu05.jpg",
+      "bytes": 180999,
+      "sha256": "1d3bd55b55accd460e90ec7c4996012c4cd760f60992ee349e4399becd271841",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_cups_5.jpeg"
+    },
+    {
+      "id": "cu06",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/cups/06.jpg",
+      "image": "/cards/cu06.jpg",
+      "bytes": 282148,
+      "sha256": "a1ce19936eb21c177563c2840b45f47e662fffc9654a1d8d2b89573786eb928c",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_cups_6.jpeg"
+    },
+    {
+      "id": "cu07",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/cups/07.jpg",
+      "image": "/cards/cu07.jpg",
+      "bytes": 240025,
+      "sha256": "5699681dbde5be981a88cf6eeaa93fa19dfe2b14a478c4f6175b9b0ec5ba73db",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_cups_7.jpeg"
+    },
+    {
+      "id": "cu08",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/cups/08.jpg",
+      "image": "/cards/cu08.jpg",
+      "bytes": 228773,
+      "sha256": "fcc05bfbf11ce285e4ebd3f0ff625c669c12d2fce926103c0431f2d3ae942332",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_cups_8.jpeg"
+    },
+    {
+      "id": "cu09",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/cups/09.jpg",
+      "image": "/cards/cu09.jpg",
+      "bytes": 246995,
+      "sha256": "e799bbee92767acf4b9bfc0a072f5cd1eae8370b728406b31bd67f3bda5fd155",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_cups_9.jpeg"
+    },
+    {
+      "id": "cu10",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/cups/10.jpg",
+      "image": "/cards/cu10.jpg",
+      "bytes": 265623,
+      "sha256": "65b9e88efb20445222d8dc082b1f35bc8d5c92a8c5e3569775ccfc2c9965f5eb",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_cups_10.jpeg"
+    },
+    {
+      "id": "pepa",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/pentacles/11.jpg",
+      "image": "/cards/pepa.jpg",
+      "bytes": 220293,
+      "sha256": "c96f54171c487eba5c9c52948e779ea7d181c06793290192ebe0cf897e286f40",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_pentacles_page.jpeg"
+    },
+    {
+      "id": "pekn",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/pentacles/12.jpg",
+      "image": "/cards/pekn.jpg",
+      "bytes": 211768,
+      "sha256": "5412b268daf1b508250f0ff6ba9e0948dda00ff3eb8a3c00a03459d51e00496e",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_pentacles_knight.jpeg"
+    },
+    {
+      "id": "pequ",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/pentacles/13.jpg",
+      "image": "/cards/pequ.jpg",
+      "bytes": 302561,
+      "sha256": "188ddaaa5160f451b6c785a1a566b129a5e8508586a04be352b34ea20020eeeb",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_pentacles_queen.jpeg"
+    },
+    {
+      "id": "peki",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/pentacles/14.jpg",
+      "image": "/cards/peki.jpg",
+      "bytes": 259820,
+      "sha256": "205e7d394753d9a255f1b328ffae665f3525b0aba61f68c8e3bc92ade199aa6c",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_pentacles_king.jpeg"
+    },
+    {
+      "id": "peac",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/pentacles/01.jpg",
+      "image": "/cards/peac.jpg",
+      "bytes": 236013,
+      "sha256": "f17681ffe815d9ba1902e3c7b25a73047b252713bd4d93226dfaec068d7c2661",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_pentacles_ace.jpeg"
+    },
+    {
+      "id": "pe02",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/pentacles/02.jpg",
+      "image": "/cards/pe02.jpg",
+      "bytes": 243798,
+      "sha256": "9ec9057a834fabd28f759b9890bd77cd47b638b7afc46bd718292ba627b34e17",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_pentacles_2.jpeg"
+    },
+    {
+      "id": "pe03",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/pentacles/03.jpg",
+      "image": "/cards/pe03.jpg",
+      "bytes": 258513,
+      "sha256": "6ab2f7f0b4487d719ee5a700b9bf13cceb36cec3e670c3f5090a930b3f78bb4d",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_pentacles_3.jpeg"
+    },
+    {
+      "id": "pe04",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/pentacles/04.jpg",
+      "image": "/cards/pe04.jpg",
+      "bytes": 213357,
+      "sha256": "ec602b18b770b97f7d8dc6437e6eb14e91bf8eb3d692eabaa0dfe8d9f75d710b",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_pentacles_4.jpeg"
+    },
+    {
+      "id": "pe05",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/pentacles/05.jpg",
+      "image": "/cards/pe05.jpg",
+      "bytes": 277444,
+      "sha256": "5c760fd302472cedfad6795e8df9869a2142bda9838caae94279a1b1d5441755",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_pentacles_5.jpeg"
+    },
+    {
+      "id": "pe06",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/pentacles/06.jpg",
+      "image": "/cards/pe06.jpg",
+      "bytes": 240284,
+      "sha256": "0ed47dffeb382ae60195568c5d1c8a76fe29d74207431ffb04392e9ef8573553",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_pentacles_6.jpeg"
+    },
+    {
+      "id": "pe07",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/pentacles/07.jpg",
+      "image": "/cards/pe07.jpg",
+      "bytes": 258599,
+      "sha256": "14b867da004f86dbc937aee7f3ec001d1a453a4543462214f9bb0f80868ef109",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_pentacles_7.jpeg"
+    },
+    {
+      "id": "pe08",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/pentacles/08.jpg",
+      "image": "/cards/pe08.jpg",
+      "bytes": 239069,
+      "sha256": "0aa29250e393fc8401a6242fb0555eebb2021eb4ce06ebe37ea5e63b8349eb42",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_pentacles_8.jpeg"
+    },
+    {
+      "id": "pe09",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/pentacles/09.jpg",
+      "image": "/cards/pe09.jpg",
+      "bytes": 262639,
+      "sha256": "e4f614c52d3f1678813bd6dd5a5860c2b51de81b80349a0512c87d8af1474177",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_pentacles_9.jpeg"
+    },
+    {
+      "id": "pe10",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/pentacles/10.jpg",
+      "image": "/cards/pe10.jpg",
+      "bytes": 286441,
+      "sha256": "a99bdeb7f0363c96bda31729b7818c4cf8adbe965f5be639c4a93def383e2b4c",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_pentacles_10.jpeg"
+    },
+    {
+      "id": "swpa",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/swords/11.jpg",
+      "image": "/cards/swpa.jpg",
+      "bytes": 244751,
+      "sha256": "985ffc30e24ecb974ac627e2d948d62c01452b1f7e610378af76bfc791fdd06f",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_swords_page.jpeg"
+    },
+    {
+      "id": "swkn",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/swords/12.jpg",
+      "image": "/cards/swkn.jpg",
+      "bytes": 249755,
+      "sha256": "88346d67b69366fbaa777b446a6e9abe8847eeafde8ad36377ab954533f376cb",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_swords_knight.jpeg"
+    },
+    {
+      "id": "swqu",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/swords/13.jpg",
+      "image": "/cards/swqu.jpg",
+      "bytes": 233513,
+      "sha256": "f648818258e66be04aa0932529aa99ff49d38c4c35464f5eeb641d2569724241",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_swords_queen.jpeg"
+    },
+    {
+      "id": "swki",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/swords/14.jpg",
+      "image": "/cards/swki.jpg",
+      "bytes": 260111,
+      "sha256": "c9f81143a52b8f035b68f0397f0eced04547dd1ffdeafb65e9e140b1213910d8",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_swords_king.jpeg"
+    },
+    {
+      "id": "swac",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/swords/01.jpg",
+      "image": "/cards/swac.jpg",
+      "bytes": 226312,
+      "sha256": "8de9cb884d479a10fb3ce4309e446b4a35361b3d615b702499d010644a3b0e25",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_swords_ace.jpeg"
+    },
+    {
+      "id": "sw02",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/swords/02.jpg",
+      "image": "/cards/sw02.jpg",
+      "bytes": 210749,
+      "sha256": "3a4a98469f4ac6de86cf3ab75badf3d7b0806f512758a043d5b8af60e4cf53ae",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_swords_2.jpeg"
+    },
+    {
+      "id": "sw03",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/swords/03.jpg",
+      "image": "/cards/sw03.jpg",
+      "bytes": 197277,
+      "sha256": "1f1c8d65db04e672381459ff6e8b0fe70685984c6a16af58adaef2355aa7f96f",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_swords_3.jpeg"
+    },
+    {
+      "id": "sw04",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/swords/04.jpg",
+      "image": "/cards/sw04.jpg",
+      "bytes": 235229,
+      "sha256": "424d4bcd10f15f09cb9599a35ef83385ac9065e4fe025fdda8138748857e07dc",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_swords_4.jpeg"
+    },
+    {
+      "id": "sw05",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/swords/05.jpg",
+      "image": "/cards/sw05.jpg",
+      "bytes": 250011,
+      "sha256": "5fb2b18fe3b3ee22b2a3af8e7cfeab3eca3b8e51b8cc8de43f241b35bdb8d74c",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_swords_5.jpeg"
+    },
+    {
+      "id": "sw06",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/swords/06.jpg",
+      "image": "/cards/sw06.jpg",
+      "bytes": 248999,
+      "sha256": "9fb5efbdd07b3894867d91f4dc8da5ab153a39295f2b65bd12b454d479c212e7",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_swords_6.jpeg"
+    },
+    {
+      "id": "sw07",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/swords/07.jpg",
+      "image": "/cards/sw07.jpg",
+      "bytes": 225606,
+      "sha256": "80865b0de8e1fa151be2e5a640448c9026289c02c60bc7a5e73652fd9258ceba",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_swords_7.jpeg"
+    },
+    {
+      "id": "sw08",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/swords/08.jpg",
+      "image": "/cards/sw08.jpg",
+      "bytes": 247053,
+      "sha256": "9d15920aed17f2dc4f1dccc89306b08669cc1f1769389c71d29b65ed57ce373d",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_swords_8.jpeg"
+    },
+    {
+      "id": "sw09",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/swords/09.jpg",
+      "image": "/cards/sw09.jpg",
+      "bytes": 227226,
+      "sha256": "b0014011f5f7283ecc83ec3aa10d4d1396b55d921bf531483323bc445834d2d4",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_swords_9.jpeg"
+    },
+    {
+      "id": "sw10",
+      "source": "https://raw.githubusercontent.com/J-York/TarotWhisper/e3a47f0376a87e19b779c99ad3842dde9d043266/public/cards/minor/swords/10.jpg",
+      "image": "/cards/sw10.jpg",
+      "bytes": 216122,
+      "sha256": "e6a7ac546b93cffc0c16f9c2e6c7c0fbc1a3dbf8c4413cc09deb17346b1afd8d",
+      "archiveOriginal": "https://archive.org/download/rider-waite-small-jpeg/minor_arcana_swords_10.jpeg"
+    }
+  ]
+}

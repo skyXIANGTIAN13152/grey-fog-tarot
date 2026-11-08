@@ -1,0 +1,206 @@
+.deck-fan {
+  width: 100%;
+  min-width: 0;
+  color: #e8d7b6;
+}
+
+.deck-fan-stage {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+  border-block: 1px solid #8d765750;
+  background:
+    radial-gradient(ellipse at 50% 18%, #56444260, transparent 69%),
+    linear-gradient(0deg, #15171cf2, #2b242af2 55%, #202026ef),
+    url('/scenes/assembly.webp') 44% 85% / cover;
+}
+
+/* Inlay follows the arc of the cards, like an engraved rail in the bronze table. */
+.deck-fan-stage::before {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  width: 88%;
+  height: 220%;
+  left: 6%;
+  top: 11%;
+  border: 1px solid #b1976940;
+  border-radius: 50%;
+  box-shadow: 0 -5px 0 -4px #d1b78355, 0 -10px 0 -9px #d1b7832e;
+  pointer-events: none;
+}
+
+.deck-fan-sweep {
+  position: absolute;
+  inset: 0;
+}
+
+.deck-fan-place {
+  position: absolute;
+  left: 50%;
+  top: 26px;
+  width: var(--fan-width);
+  height: var(--fan-height);
+  margin-left: calc(var(--fan-width) * -.5);
+  transform: translate3d(var(--fan-x), var(--fan-y), 0) rotate(var(--fan-angle));
+  pointer-events: none;
+}
+
+.deck-fan-sweep[data-open="true"] .deck-fan-place {
+  animation: deck-fan-unfold 450ms var(--ease-out) backwards;
+  animation-delay: calc(var(--fan-order) * 12ms);
+}
+
+.deck-fan-whole .deck-fan-sweep[data-open="true"] .deck-fan-place {
+  animation-duration: 380ms;
+  animation-delay: calc(var(--fan-order) * 2ms);
+}
+
+@keyframes deck-fan-unfold {
+  from { transform: translate3d(0, 8px, 0) rotate(-4deg); }
+  to { transform: translate3d(var(--fan-x), var(--fan-y), 0) rotate(var(--fan-angle)); }
+}
+
+.deck-fan-card {
+  display: block;
+  position: relative;
+  /* Anchor on the exposed strip. The painted back also accepts clicks across
+     its full visible shape, including a neighbouring card's empty place. */
+  width: 46%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  overflow: visible;
+  background: transparent;
+  cursor: pointer;
+  touch-action: manipulation;
+  pointer-events: auto;
+}
+
+.deck-fan-ink {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--fan-width);
+  height: var(--fan-height);
+  border-radius: 5px;
+  background: #362a2b;
+  box-shadow: -2px 3px 8px #09050988, 0 7px 15px #09050980;
+}
+
+.deck-fan-card .engraved-back {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+
+.deck-fan-card:disabled { cursor: default; }
+.deck-fan-stage:not(.deck-fan-whole) .deck-fan-place:focus-within { z-index: 30 !important; }
+.deck-fan-whole .deck-fan-card { width: var(--fan-strip); }
+.deck-fan-card:focus-visible { outline: 0; }
+.deck-fan-card:focus-visible .deck-fan-ink {
+  outline: 2px solid #ffdf9b;
+  outline-offset: 3px;
+}
+
+/* Keep the underlying hit map still while a back lifts. Raising the whole
+   stacking layer would steal pointer input from the next dozen narrow edges. */
+.deck-fan-whole .deck-fan-card::after {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: var(--fan-width);
+}
+.deck-fan-whole.has-motion .deck-fan-ink { transition: transform 160ms var(--ease-out); }
+.deck-fan-whole .deck-fan-card:focus-visible .deck-fan-ink { transform: translateY(-12px); }
+
+.deck-fan-number {
+  position: absolute;
+  top: 7%;
+  left: 7%;
+  display: grid;
+  place-items: center;
+  width: 1.55em;
+  min-height: 1.5em;
+  color: #f2ddb8;
+  background: #482d36;
+  border: 1px solid #b0926a;
+  font: 600 11px/1 Georgia, 'Times New Roman', serif;
+  font-variant-numeric: tabular-nums;
+  pointer-events: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .deck-fan-card:enabled:hover .engraved-back {
+    border-color: #ffe2ac;
+    box-shadow: 0 0 0 1px #dab47d;
+  }
+  .has-motion:not(.deck-fan-whole) .deck-fan-card { transition: transform 180ms var(--ease-out); }
+  .has-motion:not(.deck-fan-whole) .deck-fan-card:enabled:hover { transform: translateY(-9px); }
+  .deck-fan-whole.has-motion .deck-fan-card:enabled:hover .deck-fan-ink { transform: translateY(-12px); }
+}
+
+.deck-fan-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5px 24px;
+  padding: 7px 0 3px;
+}
+.deck-fan-modes { display: inline-flex; gap: 2px; }
+.deck-fan-modes button {
+  min-height: 35px;
+  padding: 4px 13px;
+  color: #bda888;
+  border: 1px solid transparent;
+  background: transparent;
+  font-size: 12px;
+}
+.deck-fan-modes button[aria-pressed="true"] {
+  color: #f4e2c4;
+  border-color: #9a7959;
+  background: #483038;
+}
+.deck-fan-modes button:focus-visible { outline: 2px solid #e9c798; }
+.deck-fan-count span { color: #dec294; }
+
+.deck-fan-navigation {
+  display: flex;
+  gap: clamp(5px, 2.6vw, 28px);
+  align-items: center;
+  justify-content: center;
+}
+
+.deck-fan-navigation button,
+.deck-fan-range select {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  min-height: 40px;
+  padding: 0 6px;
+  color: #dbc7a5;
+  background: transparent;
+  border: 0;
+  font-family: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.deck-fan-navigation button:disabled,
+.deck-fan-range select:disabled { opacity: .5; cursor: default; }
+.deck-fan-navigation button:focus-visible,
+.deck-fan-range select:focus-visible { outline: 2px solid #e9c798; outline-offset: -2px; }
+.deck-fan-range { position: relative; display: inline-flex; align-items: center; }
+.deck-fan-range select {
+  appearance: none;
+  width: auto;
+  padding: 0 24px 0 10px;
+  color: #f0e2cc;
+  font-variant-numeric: tabular-nums;
+}
+.deck-fan-range option { color: #f0e2cc; background: #252329; }
+.deck-fan-range svg { position: absolute; right: 7px; pointer-events: none; }
+.deck-fan-count { margin: 0; color: #b7aea0; text-align: center; font-size: 11px; }
